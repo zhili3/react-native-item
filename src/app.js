@@ -58,7 +58,7 @@ const AppContainer = createAppContainer(AppNavigator);
 export default class App extends React.Component {
 
     handleNavigationChange = (prevState, newState, action) => {
-        console.log(`prevState, newState, action======> ${prevState, newState, action}`)
+        // console.log(`prevState, newState, action======> ${prevState, newState, action}`)
     }
   render() {
     return (
